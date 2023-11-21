@@ -1,11 +1,20 @@
 /**Initialisation**/
 @font-face {
     font-family: roboto;
-    src: url(Roboto/Roboto-Medium.ttf);
+    src: url(Roboto/Roboto-Light.ttf);
 }
 
 *{
-    box-sizing: content-box;
+    font-family: roboto;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    line-height: 1.5;
 }
 
 /**Header**/
@@ -28,7 +37,7 @@ header img {
     display: flex;
     gap: 20px;
     padding: 20px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
 }
 
@@ -44,6 +53,103 @@ header img {
     color: #00b39b;
 }
 
+/**Introduction**/
+
+main {
+    padding: 50px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px; 
+    flex-wrap: wrap;  
+}
+
+.intro img{
+    height: 40px;
+    width: 40px;
+}
+
+.intro p {
+    font-size: 2.29rem;
+    font-weight: 200;
+    letter-spacing: -0.3px;
+    color: #00b39b;
+}
+
+/**Two Paragraphs**/
+.twoparagraphs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    padding-left: 260px;
+    padding-right: 260px;
+    width: 100%;
+    justify-content: center;
+}
+
+.twoparagraphs .p1 {
+    padding-right: 20px;
+}
+
+.twoparagraphs .p2{
+    padding-left: 20px;
+}
+
+
+.forsection{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    align-items: center;
+    margin: 40px 0;
+    padding: 0 18%;
+}
+
+.green-background {
+    background-color: #00ccb1;
+}
+
+.blue-background {
+    background-color: #3d83df;
+}
+
+.dark-background {
+    background-color: #1b2734;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    height: 320px;
+    width: 44%;
+    padding: 35px 25px;
+    margin-right: 2%;
+    align-items: start;
+    font-size: 1.2rem;
+}
+
+.cards img{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+
+.cards p{
+    color: #fff;
+    margin: 0;
+}
+
+.card-title {
+    font-size: 1.525em;
+    font-weight: bolder;
+    color: #fff;
+    margin: 0.3em 0;
+}
 
 
 
