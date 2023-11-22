@@ -160,6 +160,9 @@ main {
     margin-bottom: 20px;
     color: white;
     font-size: 1.2rem;
+}
+
+.select-padding {
     padding: 50px;
 }
 
@@ -199,6 +202,7 @@ main {
     flex-wrap: wrap;
     display: flex;
     gap: 0.4rem;
+    padding-left: 12%;
 }    
 
 #ads-images img {
@@ -215,14 +219,20 @@ main {
     margin-top: 50px;
 }
 
-.platform-boxes {
-    display: flex;
-    justify-content: space-around;
-    justify-content: space-between;
-    
+.platform-intro{
+    padding-top: 50px;
 }
 
-.box{
+/**use of grid system**/
+.platform-boxes {
+    display: grid;
+    grid-gap: 10px;
+    grid-column-gap: 30px;
+    padding-left: 109px;
+
+}
+
+.box1 {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -232,6 +242,152 @@ main {
     width: 200px;
 }
 
+.box2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    grid-column-start: 2;
+    
+}
+
+.box3 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+}   
+
+.box4 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+}    
+
+/**Improve section**/
+.improve {
+    padding:50px
+}
+
+.improve h3 {
+    color: #00b39b;
+    text-align: center;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.improve p {
+    color: #747474;
+    text-align: center;
+}
+
+/**coutries section**/
+ .countries {
+    margin-left: 180px;
+    margin-right: 180px;
+ }
+
+.pictures {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 8px;
+}
+
+.item {
+    margin: 2px 2px;
+}
+
+.item:hover {
+    box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.item img {
+    width: 100%;
+}
+
+.button {
+   display: flex;
+   justify-content: space-between;
+   padding: 2px 15px;
+   font-size: 15px;
+   align-items: center;
+}
+
+.button p {
+    color: #747474;
+    font-weight: bold;
+}
+
+.button button {
+    text-transform: uppercase;
+    font-weight: bolder;
+    border: none;
+    padding: 0 10px;
+    background: #3d83df;
+    color: #fff;
+    cursor: pointer; 
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 10px;
+}
+
+/**Join us section**/
+.join-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.join-us h1 {
+    margin-bottom: -8px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.join-us button {
+    background:#3d83df;
+    color: #fff;
+    cursor: pointer;
+    border: transparent;
+    padding: 9px 50px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+/**Footer**/
+footer {
+    text-align: center;
+    padding-top: 100px;
+    color: #ababab;
+}
+
+footer a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+    
+
+    
 
 
 
