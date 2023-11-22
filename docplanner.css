@@ -297,6 +297,7 @@ main {
     margin-right: 180px;
  }
 
+/**Grid display**/ 
 .pictures {
     display: grid;
     grid-template-columns: repeat(3,1fr);
