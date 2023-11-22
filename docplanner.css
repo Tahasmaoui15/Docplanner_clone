@@ -163,19 +163,75 @@ main {
     padding: 50px;
 }
 
-.option1 {
+.option1  {
     background-color: #00ccb1;
 }
-
-.option2{
+.option2 {
     background-color: #3d83df;
 }
-
-
-
-.option3{
+.option3 {
     background-color: #1b2734;
 }
+
+/**ads section**/
+.ads-section{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.ads-section div {
+    display: flex;
+    width:60%;
+}
+
+#ads-slogan {
+    font-size: 1.4 rem;
+    color: #00b39b;
+    margin-bottom: 10px;
+}
+
+#ads-slogan p {
+    font-size: 1.4rem;
+}
+
+#ads-images {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 0.4rem;
+}    
+
+#ads-images img {
+    width: 140px;
+    height: 15px;
+}
+
+/**platform section**/
+.platform {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #d0faf4;
+    margin-top: 50px;
+}
+
+.platform-boxes {
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    
+}
+
+.box{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+}
+
 
 
 
