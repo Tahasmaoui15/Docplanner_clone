@@ -198,6 +198,7 @@ main {
     font-size: 1.4rem;
 }
 
+/**Grid display**/
 #ads-images {
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -293,13 +294,15 @@ main {
 .improve h3 {
     color: #00b39b;
     text-align: center;
-    font-weight: 700;
+    font-weight: 500;
     font-size: x-large;
+    letter-spacing: 3px;
 }
 
 .improve p {
     color: #747474;
     text-align: center;
+    font-weight: 600;
 }
 
 /**coutries section**/
