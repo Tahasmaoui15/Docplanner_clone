@@ -163,7 +163,8 @@ main {
 }
 
 .select-padding {
-    padding-top: 50px;
+    margin-top: 50px;
+    max-width: 155px;
 }
 
 .option1  {
